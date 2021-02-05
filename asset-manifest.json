@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactHeroesApp/static/css/main.ede6a150.chunk.css",
-    "main.js": "/ReactHeroesApp/static/js/main.51a1ec15.chunk.js",
-    "main.js.map": "/ReactHeroesApp/static/js/main.51a1ec15.chunk.js.map",
+    "main.js": "/ReactHeroesApp/static/js/main.371fe462.chunk.js",
+    "main.js.map": "/ReactHeroesApp/static/js/main.371fe462.chunk.js.map",
     "runtime-main.js": "/ReactHeroesApp/static/js/runtime-main.36e03efb.js",
     "runtime-main.js.map": "/ReactHeroesApp/static/js/runtime-main.36e03efb.js.map",
     "static/js/2.8b3acfc7.chunk.js": "/ReactHeroesApp/static/js/2.8b3acfc7.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.36e03efb.js",
     "static/js/2.8b3acfc7.chunk.js",
     "static/css/main.ede6a150.chunk.css",
-    "static/js/main.51a1ec15.chunk.js"
+    "static/js/main.371fe462.chunk.js"
   ]
 }
