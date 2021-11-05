@@ -55,7 +55,7 @@ const historyMock = {
     });
 
     //obviamente esperamos que el replace sea a /login
-    expect(historyMock.replace ).toHaveBeenLastCalledWith("/login")
+    expect(historyMock.replace ).toHaveBeenCalledWith("/login")
 
     
   })

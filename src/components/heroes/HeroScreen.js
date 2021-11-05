@@ -1,6 +1,12 @@
 import React, { useMemo } from "react";
 import { Redirect, useParams } from "react-router-dom";
+import { heroImages } from "../../helpers/heroImages";
 import { getHeroById } from "../../selectors/getHeroById";
+
+// import foto from '../../resources/dc-arrow.jpg' forma para un recurso fijo o estático
+
+// const heroImages = require.context('../../resources',true) //me puedo traer todo un directorio con webpack
+// console.log(heroImages,'img') 
 
 export const HeroScreen = ({ history }) => {
   
@@ -32,7 +38,11 @@ export const HeroScreen = ({ history }) => {
     <div className="row mt-5 ">
       <div className="col-4">
         <img
-          src={`./assets/heroes/heroes/${heroeId}.jpg`}
+          // src={`/assets/heroes/heroes/${heroeId}.jpg`}
+          // src={`/images/${heroeId}.jpg`}
+          // src={foto} import estático
+          // src={ heroImages(`./dc-superman.jpg`).default}
+          src={heroImages(`./${heroeId}.jpg`).default}
           alt={superhero}
           className="img-thumbnail animate__animated animate__bounceInRight"
         />
